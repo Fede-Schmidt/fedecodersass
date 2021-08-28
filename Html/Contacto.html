@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | RS Estudio Contable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css-paginas/contacto.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Gothic + A1: wght @ 700 & display = swap "rel =" stylesheet ">
+</head>
+<body class="principal">
+    <header> 
+        <div>
+            <img src="/Imagenes/RS LOGO.png" class="img-logo"> 
+        </div>
+           <nav class="navbar navbar-expand-lg navbar-light>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/Html/Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Html/quienes-somos.html">¿Quienes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Html/Novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Html/Contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="contacto">
+        <h2>Contactanos para contratar nuestros servicios</h2>
+        <form>
+            <fieldset class="filedset">
+                <label class="label" for="Apellido y Nombre">Apellido y Nombre:</label>
+                <input class="input" type="text" name="Apellido y Nombre"> 
+                <br>
+                <br>
+                <label for="correo electronico">Correo Electronico:</label>
+                <input type="text" name="correo electronico" id="">
+                <br>
+                <br>
+                <label for="tipo de contribuyente">Tipo de Contribuyente:</label>
+                <select name="tipo de contribuyente" id="">
+                    <option value="Responsable Inscripto">Responsable Inscripto</option>
+                    <option value="Responsable Monotributo">Monotributista</option>
+                    <option value="Emprsa">Persona Juridica</option>
+                </select>
+                <br>
+                <br>
+                <label for="newsletter">Suscribirme al Newsletter</label>
+                <input type="checkbox" name="newsletter" id="">
+                <br>
+                <br>
+                <input class="botones" type="submit" value="Enviar Formulario">
+                <input class="botones" type="reset" value="Limpiar Datos">
+            </fieldset>
+        </form>
+        <article class="coordinar">
+            <span>A la brevedad nos comunicaremos para coordinar un encuentro</span>
+        </article>
+    </section> 
+ 
+</body>
+<footer class="footer">
+    <!-- Lado Izquierdo -->
+    <p>Desarrollado por Federico Schmidt - 2021 - Derechos Reservados</p>
+    <!-- Lado Derecho REDES SOCIALES -->
+    <div>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Telefono</p>
+    </div>
+</footer>  
+</html>
