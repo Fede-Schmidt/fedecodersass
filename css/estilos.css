@@ -33,38 +33,30 @@ header {
     color: #faf9f9;
     margin-left: 300px; }
 
-.servicios
-.servicios
+.servicios th {
+  background-color: slategray;
+  border: 1.5px;
+  line-break: loose;
+  font-size: 25px;
+  padding: 30px;
+  margin: 25px; }
+
+.servicios td {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px; }
+
 .servicios {
   padding: 25px 0;
   position: relative; }
-  .servicios
-.servicios
-.servicios th {
-    background-color: slategray;
-    border: 1.5px;
-    line-break: loose;
-    font-size: 25px;
-    padding: 30px;
-    margin: 25px; }
-  .servicios
-.servicios
-.servicios td {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 25px; }
-  .servicios
-.servicios
-.servicios h1 {
+  .servicios h1 {
     font-size: 45px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 15px; }
-  .servicios
-.servicios
-.servicios h2 {
+  .servicios h2 {
     font-size: 25px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,9 +64,7 @@ header {
     margin-bottom: 15px;
     font-style: italic;
     margin-top: 25px; }
-  .servicios
-.servicios
-.servicios p {
+  .servicios p {
     font-size: 25px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
