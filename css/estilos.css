@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box; }
 
+.button-1 {
+  width: 150px; }
+
+.button-2 {
+  width: 450px; }
+
 header {
   background-color: #1c1c46;
   display: flex;
@@ -31,7 +37,10 @@ header {
     font-size: 25px;
     font-family: 'Gothic A1', sans-serif;
     color: #faf9f9;
-    margin-left: 300px; }
+    padding-left: 75px; }
+
+.btn-btn-primary {
+  margin-left: 75px; }
 
 .servicios {
   padding: 25px 0;
@@ -91,23 +100,23 @@ header {
 .portada__titulo {
   position: absolute; }
   .portada__titulo h1 {
-    color: #acacac;
-    font-size: 175px;
+    color: #242152;
+    font-size: 150px;
     font-family: 'Gothic A1', sans-serif;
     text-align: right;
     margin-right: 50px;
     padding: 30px;
     padding-top: 90px; }
   .portada__titulo h3 {
-    color: #acacac;
-    font-size: 85px;
+    color: #242152;
+    font-size: 75px;
     font-family: 'Gothic A1', sans-serif;
     text-align: right;
     margin-top: 80px;
     margin-right: 50px;
     padding-top: 80px; }
   .portada__titulo p {
-    color: #acacac;
+    color: #242152;
     font-size: 50px;
     font-family: 'Gothic A1', sans-serif;
     text-align: center;
