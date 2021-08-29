@@ -3,12 +3,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-.button-1 {
-  width: 150px; }
-
-.button-2 {
-  width: 450px; }
-
 header {
   background-color: #1c1c46;
   display: flex;
@@ -218,6 +212,12 @@ html, body, main {
 .segundo-elemento h2:hover {
   color: red;
   font-size: 60px; }
+
+.button-1 {
+  width: 150px; }
+
+.button-2 {
+  width: 450px; }
 
 @media screen and (max-width: 780px) {
   .portada p {

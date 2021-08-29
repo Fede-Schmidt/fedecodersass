@@ -6,13 +6,7 @@ $width-button: 150px;
     box-sizing: border-box;
 }
 
-.button-1 {
-    width: $width-button;
-}
 
-.button-2 {
-    width: $width-button + 300px;  
-}
 header {
     background-color: rgb(28, 28, 70);
     display: flex;
@@ -279,6 +273,15 @@ html, body, main {
     color: rgb(255, 0, 0);
     font-size: 60px;
 }
+
+.button-1 {
+    width: $width-button;
+}
+
+.button-2 {
+    width: $width-button + 300px;  
+}
+
 @media screen and (max-width: 780px) {
     .portada p {
         display: none;
