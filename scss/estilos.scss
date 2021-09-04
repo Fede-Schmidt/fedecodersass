@@ -8,7 +8,7 @@ $width-button: 150px;
 
 
 header {
-    background-color: rgb(28, 28, 70);
+    background-color: rgb(15, 15, 56);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,20 +166,9 @@ header {
     padding-left: 25px;
 }
 
-.bi-facebook {
-    margin-right: 25px;
-}
-
-.bi-envelope {
-    margin-left: 25px;
-}
-
 .btn-dark {
-    
     margin: 25px;
 }
-    
-
 
 .footer {
     font-size: 20px;
@@ -187,6 +176,14 @@ header {
     background-image: linear-gradient(to right, rgb(6, 6, 92), black);
     text-align: center;
     padding: 15px;
+}
+
+.bi-facebook {
+    margin-right: 25px;
+}
+
+.bi-envelope {
+    margin-left: 25px;
 }
 
 .somos {

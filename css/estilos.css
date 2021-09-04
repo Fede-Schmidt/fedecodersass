@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 header {
-  background-color: #1c1c46;
+  background-color: #0f0f38;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -121,12 +121,6 @@ header {
   height: 250px;
   padding-left: 25px; }
 
-.bi-facebook {
-  margin-right: 25px; }
-
-.bi-envelope {
-  margin-left: 25px; }
-
 .btn-dark {
   margin: 25px; }
 
@@ -136,6 +130,12 @@ header {
   background-image: linear-gradient(to right, #06065c, black);
   text-align: center;
   padding: 15px; }
+
+.bi-facebook {
+  margin-right: 25px; }
+
+.bi-envelope {
+  margin-left: 25px; }
 
 .somos {
   display: flex;
