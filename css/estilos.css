@@ -67,6 +67,9 @@ header {
   .servicios__descrip article {
     padding: 0 25px; }
 
+.servicios__cards {
+  color: black; }
+
 .valores {
   font-size: 30px;
   font-family: 'Gothic A1', sans-serif;
@@ -265,6 +268,16 @@ label {
   margin: 15px 45px;
   font-size: 15px;
   color: #050569; }
+
+.colorcarrousel {
+  color: #110935;
+  font-style: italic;
+  font-size: 23px; }
+
+.colorcarrousel2 {
+  color: black;
+  font-style: italic;
+  font-size: 30px; }
 
 @media screen and (max-width: 780px) {
   .portada p {

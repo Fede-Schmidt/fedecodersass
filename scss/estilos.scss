@@ -96,6 +96,10 @@ header {
     }
 }
 
+.servicios__cards {
+    color: rgb(0, 0, 0);
+  }
+
 .valores {
     font-size: 30px;
     font-family: 'Gothic A1', sans-serif;
@@ -340,6 +344,17 @@ label {
     color: rgb(5, 5, 105);
 }
 
+.colorcarrousel {
+    color: rgb(17, 9, 53);
+    font-style: italic;
+    font-size: 23px;
+}
+
+.colorcarrousel2 {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 30px;
+}
 
 
 @media screen and (max-width: 780px) {
